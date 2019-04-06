@@ -18,6 +18,27 @@ This is my code when using SlugField on Django with autogenerate when the data c
 
 This is my code when using SlugField on Django with autogenerate when the data created in the first time and it will be unique.
 
+```
+from django.db import models
+from django.utils.text import slugify
+
+
+class MyModel(models.Model):
+    name = models.CharField()
+    slug = models.SlugField(unique=True, null=False)
+    def _generate_unique_slug(self)
+        unique_slug = slugify(self.name)
+        num = 1
+        while MyModel.objects.filter(slug=unique_slug).exists():
+            slug = '{}-{}'.format(unique_slug, num)
+            num += 1
+            return unique_slug
+    def save(self, *args, **kwargs):
+        if not self.slug:
+            self.slug = self._get_unique_slug()
+        super().save(*args, **kwargs)
+```
+
 😉
 
 
