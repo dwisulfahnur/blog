@@ -17,13 +17,13 @@ tags:
 #### Install ODBC Driver for MS SQL Server
 
 ##### OS X 10.11 (El Capitan), 10.12 (Sierra), 10.13 (High Sierra), and 10.14 (Mojave)
-```
+```shell
 $ brew update  
 $ brew install -no-sandbox msodbcsql17 mssql-tools  
 $ brew tap microsoft/mssql-release [https://github.com/Microsoft/homebrew-mssql-release](https://github.com/Microsoft/homebrew-mssql-release)
 ```
 ##### Ubuntu 14.04, 16.04, 17.10 and 18.04
-```
+```bash
 $ sudo su
 $ curl [https://packages.microsoft.com/keys/microsoft.asc](https://packages.microsoft.com/keys/microsoft.asc) | apt-key add -
 $ curl [https://packages.microsoft.com/config/ubuntu/**_{version}_**/prod.list](https://packages.microsoft.com/config/ubuntu/%7Bversion%7D/prod.list) > /etc/apt/sources.list.d/mssql-release.list
@@ -43,13 +43,13 @@ $ sudo apt-get install unixodbc-dev
 #### Install Django Pyodbc Azure
 
 Install `django-pyodbc-azure` using pip on the python environment of your djangoapp.
-```
+```bash
 pip install django-pyodbc-azure
 ```
 #### **Update Database Configuration**
 
 Update your databases configuration in settings file of the project like the following. Adjust the name, host, user, password, and port parameter with yours.
-```
+```python
 DATABASES = {  
      'default': {  
          'ENGINE': 'sql_server.pyodbc',  

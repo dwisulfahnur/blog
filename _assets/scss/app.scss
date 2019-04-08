@@ -56,6 +56,7 @@
 // Vendor
 //----------------------------------------------  
 @import 'vendor/_zoom';
+@import 'vendor/pygments';
 
 //----------------------------------------------
 // Regions
@@ -73,6 +74,7 @@
 @import 'components/_post';
 @import 'components/_posts';
 @import 'components/_related';
+@import 'components/rouge';
 @import 'components/_subscribe';
 @import 'components/_zoom';
 

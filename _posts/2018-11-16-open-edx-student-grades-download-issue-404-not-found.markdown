@@ -18,11 +18,11 @@ tags:
 In this post, i will share about how to fix student data generation of Open edX **Not Found.** This problem occurs when we don’t use **s3** as to save student data generation.
 
 To fix this problem we have to create a link to true location of **.csv** file (**/tmp/edx-s3/grades**) in **/edx/var/edxapp/media** directory by typing the following command.
-```
+```bash
 $ ln -s /tmp/edx-s3/grades /edx/var/edxapp/media
 ```
 Then, update nginx VirtualHost configuration of lms (**/edx/app/nginx/sites-avaliable/lms**). Find the following codes on the file:
-```
+```bash
 location ~ ^/media/(?P<file>.\*) {  
     root /edx/var/edxapp/media;  
     try\_files /$file =404;  
@@ -32,7 +32,7 @@ location ~ ^/media/(?P<file>.\*) {
 
 then update it with the following codes:
 
-```
+```bash
 location ~ ^/media/(?P<file>.\*) {  
     root /edx/var/edxapp/media;  
     try\_files /$file /grades/$file;  
@@ -48,7 +48,7 @@ location ~ ^/grades/(?P<file>.\*) {
 
 Restart the nginx service
 
-```
+```bash
 $ sudo service nginx restart
 ```
 

@@ -3,7 +3,7 @@ layout: post
 title: "How to setup Github push with SSH Keys"
 date: 2017-09-14
 description: setup Github push with SSH Keys
-image: /assets/images/placeholder-22.jpg
+image: //assets/images/placeholder-22.jpg
 author: Dwi Sulfahnur
 tags:
   - django
@@ -50,29 +50,29 @@ xclip -sel clip < ~/.ssh/id_rsa.pub{% endhighlight %}
 
 In the upper-right corner of any page, click your profile photo, then click Settings.
 
-![Markdowm Image](https://github.com/dwisulfahnur/dwisulfahnur.github.io/blob/master/assets/images/setup-Github-push-with-SSH-Keys1.png?raw=true)
+![Markdowm Image](/assets/images/setup-Github-push-with-SSH-Keys1.png?raw=true)
   
 
 In the user settings sidebar click SSH and GPG keys.
 
-![Markdowm Image](https://github.com/dwisulfahnur/dwisulfahnur.github.io/blob/master/assets/images/setup-Github-push-with-SSH-Keys2.png?raw=true)
+![Markdowm Image](/assets/images/setup-Github-push-with-SSH-Keys2.png?raw=true)
 
 Click New SSH key or Add SSH key.
 
-![Markdowm Image](https://github.com/dwisulfahnur/dwisulfahnur.github.io/blob/master/assets/images/setup-Github-push-with-SSH-Keys3.png?raw=true)
+![Markdowm Image](/assets/images/setup-Github-push-with-SSH-Keys3.png?raw=true)
   
 In the "Title" field, add a descriptive label for the new key. For example "My Ubuntu".
 
-![Markdowm Image](https://github.com/dwisulfahnur/dwisulfahnur.github.io/blob/master/assets/images/setup-Github-push-with-SSH-Keys4.png?raw=true)
+![Markdowm Image](/assets/images/setup-Github-push-with-SSH-Keys4.png?raw=true)
 
 Paste your key into the "Key" field.
 then, click Add SSH key.
 
-![Markdowm Image](https://github.com/dwisulfahnur/dwisulfahnur.github.io/blob/master/assets/images/setup-Github-push-with-SSH-Keys5.png?raw=true)
+![Markdowm Image](/assets/images/setup-Github-push-with-SSH-Keys5.png?raw=true)
   
 If prompted, confirm your GitHub password.
 
-![Markdowm Image](https://github.com/dwisulfahnur/dwisulfahnur.github.io/blob/master/assets/images/setup-Github-push-with-SSH-Keys6.png?raw=true)
+![Markdowm Image](/assets/images/setup-Github-push-with-SSH-Keys6.png?raw=true)
 
  
 ### Configure you Github Repository
