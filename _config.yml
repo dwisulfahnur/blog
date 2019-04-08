@@ -5,7 +5,7 @@ permalink: /:title/
 google_analytics: 'UA-106508932-1'
 
 name: 'Dwi Sulfahnur'
-title: 'Dwi Sulfahnur Personal Site'
+title: 'Dwi Sulfahnur Blog'
 description: >
   'Welcome to my Home'
 url: 'https://dwisulfahnur.com'
@@ -59,7 +59,7 @@ autopages:
   tags:
     layouts: 
       - 'tag.html'
-    title: 'Dwi Sulfahnur Personal Site'
+    title: 'Dwi Sulfahnur Blog'
     permalink: '/tag/:tag'
     slugify:
       mode: raw
