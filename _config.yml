@@ -1,7 +1,7 @@
 # Site/SEO settings
 email: dwisulfahnur@gmail.com
 baseurl: ''
-permalink: /:year/:month/:day/:title/
+permalink: /:title/
 google_analytics: 'UA-106508932-1'
 
 name: 'Dwi Sulfahnur'
