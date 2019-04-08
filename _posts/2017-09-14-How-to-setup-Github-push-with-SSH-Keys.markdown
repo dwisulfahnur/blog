@@ -3,7 +3,7 @@ layout: post
 title: "How to setup Github push with SSH Keys"
 date: 2017-09-14
 description: setup Github push with SSH Keys
-image: //assets/images/placeholder-22.jpg
+image: /assets/images/placeholder-22.jpg
 author: Dwi Sulfahnur
 tags:
   - django
