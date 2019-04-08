@@ -7,10 +7,10 @@ google_analytics: 'UA-106508932-1'
 name: 'Dwi Sulfahnur'
 title: 'Dwi Sulfahnur Blog'
 description: >
-  'Welcome to my Home'
+  'Welcome to Dwi Sulfahnur Blog'
 url: 'https://dwisulfahnur.com'
 twitter_username: 'dwisulfahnur'
-default_img: /assets/images/seo.jpg
+default_img: /assets/images/dwi-sulfahnur.jpeg
 social:
   - name: twitter
     url: https://twitter.com/dwisulfahnur
