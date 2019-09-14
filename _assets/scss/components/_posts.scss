@@ -53,9 +53,18 @@
     }
   }
 
-  &__post {
-    padding: 2em 1em;
+  &__title {
 
+  }
+
+  &__post {
+    font-family: Lora,serif;
+    font-size: 1em;
+    padding: .5em 0em;
+    .post__date {
+      font-size: .9em;
+      font-weight: normal;
+    }
     // @media (min-width: $mq-small) {
     //   padding: {
     //     top: 4em;
