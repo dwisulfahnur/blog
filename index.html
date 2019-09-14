@@ -1,21 +1,17 @@
 ---
 layout: default
-pagination:
-  enabled: true
 ---
 <!-- The main content area -->
-<div class="posts">
-  <div class="grid-xlarge">
-    <div class="posts__container" itemscope itemtype="http://schema.org/Blog" data-columns>
-
-      {% for post in paginator.posts %}
-
-        <!-- The tag below includes the markup for each post - partials/post-card.html -->
-        {% include post-card.html %}
-
-      {% endfor %}
+<div class="grid-small section-padding">
+  <div class="profile">
+      <div class="profile__avatar section-padding--half">
+        <img src="{{ site.contact_img | prepend: site.baseurl }}"/>
+      </div>
+      <h1 class="profile__name">Dwi Sulfahnur</h1>
+      <div class="profile__social section-padding--half">
+          {% for social in site.social %}
+          <li><a href="{{ social['url'] }}" target="_blank"><i class="fa fa-{{ social['name'] }}"></i></a></li>
+          {% endfor %}
+      </div>
     </div>
-  </div>
-
-  {% include pagination.html %}
 </div>
