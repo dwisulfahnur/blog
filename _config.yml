@@ -5,9 +5,9 @@ permalink: /:title/
 google_analytics: 'UA-106508932-1'
 
 name: 'Dwi Sulfahnur'
-title: 'Dwi Sulfahnur Blog'
+title: 'Dwi Sulfahnur'
 description: >
-  'Welcome to Dwi Sulfahnur Blog'
+  'Welcome to Dwi Sulfahnur Site'
 url: 'https://dwisulfahnur.com'
 twitter_username: 'dwisulfahnur'
 default_img: /assets/images/dwi-sulfahnur.jpeg
@@ -37,7 +37,7 @@ mailchimp_input: b_b9b193c3404f0af2ff10979f6_667202a6d0
 # Author settings
 author:
   - name: Dwi Sulfahnur
-    bio: 'I love to Sharing'
+    bio: 'Backend Engineer'
     url: https://dwisulfahnur.com
 
 # Pagination settings
@@ -59,7 +59,7 @@ autopages:
   tags:
     layouts: 
       - 'tag.html'
-    title: 'Dwi Sulfahnur Blog'
+    title: 'Dwi Sulfahnur'
     permalink: '/tag/:tag'
     slugify:
       mode: raw
