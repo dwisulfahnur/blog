@@ -1,0 +1,26 @@
+.profile {
+    text-align: center;
+    &__avatar {
+        text-align: center;
+        img {
+            border-radius: 50%;
+            max-width: 200px;
+        }
+    }
+
+    &__name {
+        font-family: Lora,serif;
+    }
+
+    &__social {
+        @extend %no-list-style;
+        li {
+            display: inline;
+            padding: 8px;
+            a {
+                font-size: 1.4em;
+                color: #000000;
+            }
+        }
+    }
+}
