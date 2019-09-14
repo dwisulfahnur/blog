@@ -1,0 +1,24 @@
+---
+layout: default
+pagination:
+  enabled: true
+---
+<!-- The main content area -->
+<div class="posts">
+  <div class="grid-small">
+      <div class="posts__container" data-columns="1"></div>
+      <div>
+        <h2 class="posts__title">Blog Posts</h2>
+        <hr />
+      </div>
+      {% for post in paginator.posts %}
+
+        <!-- The tag below includes the markup for each post - partials/post-card.html -->
+        {% include post-card.html %}
+
+      {% endfor %}
+    </div>
+  </div>
+
+  {% include pagination.html %}
+</div>
