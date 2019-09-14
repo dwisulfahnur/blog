@@ -12,14 +12,18 @@ url: 'https://dwisulfahnur.com'
 twitter_username: 'dwisulfahnur'
 default_img: /assets/images/dwi-sulfahnur.jpeg
 social:
-  - name: twitter
-    url: https://twitter.com/dwisulfahnur
+  - name: github
+    url: https://github.com/dwisulfahnur
+  - name: stack-overflow
+    url: https://stackoverflow.com/users/7026482/dwi-sulfahnur
   - name: instagram
     url: https://www.instagram.com/dwisulfahnur/
   - name: linkedin
     url: https://www.linkedin.com/in/dwisulfahnur/
-  - name: github
-    url: https://github.com/dwisulfahnur
+  - name: facebook
+    url: https://facebook.com/dwisulfahnur
+  - name: twitter
+    url: https://twitter.com/dwisulfahnur
   # - name: codepen
   #   url: https://codepen.io/thomasvaeth/
 
