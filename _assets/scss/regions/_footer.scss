@@ -6,10 +6,6 @@
   background-color: $color-black;
   border-top: $border;
 
-  &__container {
-    margin-top: 3em;
-  }
-
   &__tags {
     @extend %flex-center;
     @extend %no-list-style;
