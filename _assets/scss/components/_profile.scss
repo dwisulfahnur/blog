@@ -1,10 +1,12 @@
 .profile-wrapper {
-    padding: calc((100% / 2) - 447px ) 0!important;
+    // padding: calc((100% / 2) - 620px) 0;
     .profile {
+        padding: 120px;
         text-align: center;
         &__avatar {
             text-align: center;
             img {
+                max-width: 100%;
                 border-radius: 50%;
                 max-width: 200px;
             }
