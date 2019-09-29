@@ -1,19 +1,22 @@
 .profile-wrapper {
     // padding: calc((100% / 2) - 620px) 0;
     .profile {
-        padding: 120px;
+        // padding: 120px;
+        padding: 30% 0;
         text-align: center;
         &__avatar {
             text-align: center;
+            max-width: 100%;
             img {
                 max-width: 100%;
+                width: 200px;
                 border-radius: 50%;
-                max-width: 200px;
             }
         }
     
         &__name {
             font-family: Lora,serif;
+            font-size: 1.5em;
         }
     
         &__social {
